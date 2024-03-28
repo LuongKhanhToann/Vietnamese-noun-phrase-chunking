@@ -1,5 +1,5 @@
 # Vietnamese-noun-phrase-chunking
-Using CRF (Conditional Random Field) as a sequential machine learning model yields good performance for chunking tasks.
+Using CRF (Conditional Random Field) as a sequential machine learning model yields good performance for chunking tasks. In addition, research has supplemented several rules to make chunking more suitable for Vietnamese, especially in the Person search task.
 * Generate an IOB2-formatted dataset in CONLL2000 format to facilitate Vietnamese NLP tasks (8969 sentences ~ 187263 tokens). Demo:
  
 |       Word       |      POS tags        | Labels     |
