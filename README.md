@@ -13,9 +13,9 @@ Using CRF (Conditional Random Field) as a sequential machine learning model yiel
 |    Hội        | N             |    B-NP  |
 |    An    | Np             |    I-NP  |
 * Build a model for chunking Vietnamese noun phrases with an F1-score of 91.34% and Bleu-score of 85.89%. Demo:
->Input: Người phụ nữ đội mũ rộng vành màu vàng nâu, mặc áo dài màu xanh lá cây, quần dài đen, đeo túi đeo chéo màu đỏ pha trắng, đi giày đen
+>Input: Nữ đội mũ màu vàng nhạt rộng vành, mặc áo màu đỏ, quần dài màu vàng nâu nhạt, đi giày bệt màu đen, tay cầm túi xách đen
 
->Output: người phụ nữ , mũ rộng vành màu vàng nâu , áo dài màu xanh lá cây , quần dài đen , chéo màu đỏ pha trắng , giày đen
+>Output: nữ , mũ màu vàng nhạt rộng vành , áo màu đỏ , quần dài màu vàng nâu nhạt , giày bệt màu đen , túi xách đen
 
 * And apply it effectively to the Vitta Person Search model. Demo:
   
