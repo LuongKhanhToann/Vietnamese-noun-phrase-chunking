@@ -1,6 +1,9 @@
 # Vietnamese-noun-phrase-chunking
-Using CRF (Conditional Random Field) as a sequential machine learning model yields good performance for chunking tasks. In addition, research has supplemented several rules to make chunking more suitable for Vietnamese, especially in the Person search task.
-* Generate an IOB2-formatted dataset in CONLL2000 format to facilitate Vietnamese NLP tasks (8969 sentences ~ 187263 tokens). Demo:
+Public Paper:  [Improvement of Vietnamese noun phrases chunking in text-based person image search](https://ieeexplore.ieee.org/document/10634596?fbclid=IwY2xjawJ8D3tleHRuA2FlbQIxMABicmlkETFpQWw5MXVueEtxdnVKbmF4AR640-7DViVh2mhSTbHAE0hlb8YZyrJwWANJ2NHw5XUPsYzP02wsvVSz9VO3Eg_aem_InroLJBBNkbCwkqb-H3vNw)
+
+Using CRF (Conditional Random Field) as a sequential machine learning model yields good performance for chunking tasks. In addition, research has supplemented several rules to make chunking more suitable for Vietnamese, especially in the Person search task. 
+* Generate an IOB2-formatted dataset in CONLL2000 format to facilitate Vietnamese NLP tasks (8969 sentences ~ 187263 tokens). 
+Input: "Sẽ tổ chức phố đi bộ tại Hội An" -> Output:
  
 |       Word       |      POS tags        | Labels     |
 | :------------:|:-------------:|:-----:|
@@ -20,6 +23,3 @@ Using CRF (Conditional Random Field) as a sequential machine learning model yiel
 * And apply it effectively to the Vitta Person Search model. Demo:
   
   ![image](https://github.com/LuongKhanhToann/Vietnamese-noun-phrase-chunking/assets/127384944/a3af30e6-c7a5-46ff-b219-21918a649cf5)
-
-
-The project is further described in the paper: [link](https://www.overleaf.com/read/ccmnfqywqbzn#d6105a) (currently in the submission process).
